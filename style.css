@@ -13,7 +13,7 @@
 }
 
 .container {
-  width: 95%;
+  width: 90%;
   margin: 0 auto;
 }
 
@@ -40,7 +40,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.5rem;
+  padding: 1rem 0;
   /* border: 2px solid red; */
 }
 
@@ -79,4 +79,70 @@ nav {
      -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 
+}
+
+ /* ------------ Destination Part -------------- */
+ .destination h3{
+  color: #131318;
+text-align: center;
+font-size: 2.2rem;
+font-weight: 800;
+margin-bottom: .3em;
+ }
+ .destination p{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+line-height: 26px; /* 162.5% */
+margin-bottom: 3em;
+ }
+
+.image-section{
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  /* grid-template-rows: repeat(3,1fr); */
+  gap:1.5em;
+  
+}
+.image-section img{
+  width: 100%;
+  height: auto;
+}
+
+.image-section div{
+  position: relative;
+}
+.image-section p{
+  color: #FFF;
+text-align: center;
+font-size: 28px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.img-1{
+grid-column: span 6;
+}
+.img-2{
+grid-column: span 6;
+}
+.img-3{
+  grid-column: span 4;
+}
+.img-4{
+  grid-column: span 5;
+}
+.img-5{
+  grid-column:10/ span 3 ;
+}
+.img-6{
+  grid-column: span 5;
+}
+.img-7{
+  grid-column: span 7;
 }
