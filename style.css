@@ -1,75 +1,73 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-:root{
-    --primary-color:#FF5400;
-    --Dark-02:#424247;
+:root {
+  --primary-color: #ff5400;
+  --Dark-02: #424247;
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Mulish", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mulish", sans-serif;
 }
 
-.container{
-    width: 95%;
-    margin: 0 auto;
+.container {
+  width: 95%;
+  margin: 0 auto;
 }
 
-.logo-part{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.logo-part {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
-.black-part{
-color: #131318;
-font-size: 2.25rem;
-font-style: normal;
-font-weight: 800;
+.black-part {
+  color: #131318;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 800;
 }
-.orange-part{
-    color: #FF5400;
+.orange-part {
+  color: #ff5400;
 
-font-size: 2.25rem;
-font-style: normal;
-font-weight: 800;
-
-}
-
-
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-     padding: 1rem 1.5rem;
-    /* border: 2px solid red; */
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 800;
 }
 
-.nav-menu{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  /* border: 2px solid red; */
 }
 
-.nav-item{
-    list-style: none;
-    
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
-.nav-link:hover{
-    color: var(--primary-color);
+
+.nav-item {
+  list-style: none;
+  margin-right: 1em;
 }
-.nav-link{
-    text-decoration: none;
-    color: var(--Dark-02);
-font-size: 1rem;
-font-weight: 500;
+.nav-link:hover {
+  color: var(--primary-color);
+}
+.nav-link {
+  text-decoration: none;
+  color: var(--Dark-02);
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 /* Hamburger design  */
 
-.hamburger{
-    display:none;
+.hamburger {
+  display: none;
 }
 
 .bar{
